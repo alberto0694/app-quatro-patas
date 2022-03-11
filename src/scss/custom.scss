@@ -1,0 +1,329 @@
+@import '_variables';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.content {
+    display: flex;
+    padding: 120px;
+    padding-left: 250px;
+    padding-right: 0;    
+    justify-content: space-between;
+}
+
+.content-wrap{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.background-picture, .background-logo{
+    background-image: url(img/HomeDog.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    width: 800px;
+    height: 800px;
+}
+
+
+.background-modal{
+    background-color: rgba(0, 0, 0, 0.185);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    .content-modal{
+
+        position: relative;
+        margin: 0 auto;
+        margin-top: 200px;
+        width: 800px;
+        display: flex;        
+        border-radius: 30px;
+        border: 3px solid white;
+
+        button {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            background: none;
+            border: none;
+            font-weight: bold;
+        }
+        
+    }
+
+    .textos{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+.bg-favorito{
+    background-color: #91d88b;
+}
+
+.bg-novo-amigo{
+    background-color: #d88bb9;
+}
+
+.background-logo, .background-picture-modal{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 400px;
+    height: 600px;     
+    background-image: url(svg/LogoQuatroPatas.svg);
+}
+
+.background-picture-modal{
+    background-image: url(img/AdoptModalDog2x.png);
+    margin-left: 50px;
+    height: auto;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.nav-header-footer {
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+}
+
+.btn-custom{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid $fourth-color;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: $fourth-color;
+}
+
+.btn-hover:hover{
+    box-shadow: 5px 10px 15px 2px $fourth-color-hover;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.no-border{
+    border: none;
+}
+
+.color-white{
+    color: white;
+}
+
+.color-gray{
+    color: $gray-strong;
+}
+
+.color-fourth{
+    color: $fourth-color;
+}
+
+.background-primary-color{
+    background-color: $primary-color;
+}
+
+.background-second-color{
+    background-color: $second-color;
+}
+
+.background-third-color{
+    background-color: $third-color;
+}
+
+.background-fourth-color{
+    background-color: $fourth-color;
+}
+
+.background-gray-color{
+    background-color: $gray-custom;
+}
+
+.nunito-26{
+    font-family: 'Nunito';
+    font-size: 26px;
+}
+
+.nunito-20{
+    font-family: 'Nunito';
+    font-size: 20px;
+}
+
+.amatic-100{
+    font-family: 'Amatic SC';
+    font-size: 100px;
+}
+
+.amatic-50{
+    font-family: 'Amatic SC';
+    font-size: 50px;
+}
+
+.padding-0{
+    padding: 0;
+}
+
+.padding-15{
+    padding: 15px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.margin-top-40{
+    margin-top: 40px;
+}
+
+.margin-bottom-40{
+    margin-bottom: 40px;
+}
+
+.margin-top-60{
+    margin-top: 60px;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+}
+
+.margin-left-20{
+    margin-left: 20px;
+}
+
+.margin-left-10{
+    margin-left: 10px;
+}
+
+.margin-right-20{
+    margin-right: 20px;
+}
+
+.width-60p{
+    width: 60%;
+}
+
+.width-50{
+    width: 50px;
+}
+
+.width-300{
+    width: 300px;
+}
+
+.height-800{
+    height: 800px;
+}
+
+.height-50{
+    height: 50px;
+}
+
+.height-100{
+    height: 100px;
+}
+
+.height-300{
+    height: 300px;
+}
+
+.margin-left-150{
+    margin-left: 150px;
+}
+
+.margin-right-150{
+    margin-right: 150px;
+}
+
+.right-0{
+    right: 0;
+}
+
+
+
+
+
+@media (max-width: $width-break)
+{
+    .content{
+        display:flex; flex-direction: column; text-align:center;
+        padding: 0;
+    }
+
+    .background-picture{
+        order: 1;
+        width: 93%;
+        margin-top: 40px;
+        height: 300px;
+    }
+
+    .width-60p{
+        width: 100%;
+    }
+
+    .nunito-26{
+        font-size: 16px;
+    }
+
+    .amatic-100{
+        font-size: 50px;
+    }
+
+    .m-margin-10{
+        margin: 10px;
+    }
+
+    .m-center{
+        text-align: center;
+        width: 96%;
+        display: block;
+    }
+
+    .no-margin-mobile{
+        margin: 0 !important;
+    }
+
+    .padding-mobile{
+        padding: 15px;
+    }
+
+    .nav-header-footer{
+        height: auto;
+    }
+
+    .content{
+        height: auto;
+    }
+
+    .background-modal{
+    
+        .content-modal{
+            width: 300px;
+        }
+    }
+}
