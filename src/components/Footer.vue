@@ -2,8 +2,8 @@
     <div>
         <div class="nav-header-footer content height-300 padding-0 padding-mobile">
 
-            <router-link class="logo-pet-footer" to="/">
-                <img  src="../../public/svg/LogoQuatroPatas.svg"/>
+            <router-link to="/">
+                <div class="background-logo-footer"></div>
             </router-link>
               
             <div class="nunito-26 margin-right-150 no-margin-mobile">

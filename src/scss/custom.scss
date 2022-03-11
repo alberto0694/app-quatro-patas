@@ -26,7 +26,7 @@
 }
 
 
-.background-picture, .background-logo{
+.background-picture, .background-logo, .background-logo-footer{
     background-image: url(img/HomeDog.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -37,6 +37,7 @@
 
 
 .background-modal{
+
     background-color: rgba(0, 0, 0, 0.185);
     position: fixed;
     top: 0;
@@ -83,13 +84,18 @@
     background-color: #d88bb9;
 }
 
-.background-logo, .background-picture-modal{
+.background-logo, .background-logo-footer, .background-picture-modal{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     width: 400px;
     height: 600px;     
     background-image: url(svg/LogoQuatroPatas.svg);
+}
+
+.background-logo-footer{
+    height: 300px; 
+    margin-left: 300px
 }
 
 .background-picture-modal{
@@ -325,5 +331,10 @@
         .content-modal{
             width: 300px;
         }
+    }
+
+    .background-logo-footer{
+        width: 200px;
+        margin-left: 0;
     }
 }
