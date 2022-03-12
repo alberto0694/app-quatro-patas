@@ -17,7 +17,7 @@
 
         </div>
 
-        <div class="background-picture"></div>
+        <div class="background-picture picture-index"></div>
         
     </div>
 </template>

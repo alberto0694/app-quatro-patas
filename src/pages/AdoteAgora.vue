@@ -9,7 +9,7 @@
                 <p class="nunito-26">Temos vários peludinhos esperando para fazer um lar mais feliz!</p>
             </div>
 
-            <div class="background-picture absolute right-0"></div>
+            <div class="background-picture picture-adote-amigo absolute right-0"></div>
         
         </div>
 

@@ -3,7 +3,7 @@
         
         <div class="content-modal  bg-novo-amigo">  
             <button @click="close">X</button>  
-            <div class="background-picture-modal"></div>
+            <div class="background-picture-modal "></div>
 
             <div class="margin-top-40 margin-bottom-40 margin-right-20">
                 <h2 class="amatic-100">Você ganhou um novo amiguinho!</h2>

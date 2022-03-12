@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        <div class="background-picture"></div>
+        <div class="background-picture picture-nossas-regras"></div>
 
     </div>
 </template>

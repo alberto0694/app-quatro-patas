@@ -26,8 +26,7 @@
 }
 
 
-.background-picture, .background-logo, .background-logo-footer{
-    background-image: url(img/HomeDog.png);
+.background-picture, .background-logo, .background-logo-footer{    
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center; 
@@ -53,7 +52,7 @@
         width: 800px;
         display: flex;        
         border-radius: 30px;
-        border: 3px solid white;
+        border: 3px solid white;        
 
         button {
             position: absolute;
@@ -62,6 +61,8 @@
             background: none;
             border: none;
             font-weight: bold;
+            cursor: pointer;
+            font-size: 20px;
         }
         
     }
@@ -269,6 +270,20 @@
 .right-0{
     right: 0;
 }
+
+.picture-index{
+    background-image: url(img/HomeDog2x.png);
+}
+
+.picture-adote-amigo{
+    background-image: url(img/AdoptDog2x.png);
+}
+
+
+.picture-nossas-regras{
+    background-image: url(img/RulesDog2x.png);
+}
+
 
 
 

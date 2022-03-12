@@ -25,7 +25,6 @@ export default createStore({
     actions:{
 
         favoritarPetAction(context, pet){
-            console.log('jkshdsdjksa');
             context.commit('favoritarPetMutation', pet)
         },
 
